@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05/01/2015, 10:55:19
+    Author     : Eder
+*/
+
+.linhaCinza {
+    background: gray;
+}
+.blocoAzul{
+    background: #58ACFA;
+}
+.blocoAmarelo {
+    background: #F2F5A9;
+}
+.blocoLaranja {
+    background: #F7BE81;
+}
+.blocoVerde{
+    background: #A9F5A9;
+}
+.blocoLilas{
+    background: #F5A9F2;
+}
+
+.row.equalheights{
+   overflow: hidden;
+}
+.row.equalheights > [class*="col-"] {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.sem-margem-inferior {
+    margin-bottom: 0px;
+}
+
+.banner {
+    background-color: #58ACFA;
+}
+.banner .container {
+    min-height: 200px;
+    padding: 40px 30px 30px 40px;
+}
+.banner .container p{
+    font-size: 22px;
+    padding-left: 5px;
+    font-weight: 300;
+}
+.icone-banner{
+    font-size: 120px;
+}

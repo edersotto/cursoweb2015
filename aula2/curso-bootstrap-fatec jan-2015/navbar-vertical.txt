@@ -1,0 +1,24 @@
+<nav class="navbar navbar-default" role="navigation">
+
+                    <div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="navbar-brand visible-xs">Menu</div>
+                    </div>
+
+                    <div class="collapse navbar-collapse">
+
+                        <ul class="nav nav-stacked">
+                            <li class="active"><a href="#">Link</a></li>
+                            <li class="list-inline"><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>              
+                        </ul>
+
+
+                    </div><!-- /.navbar-collapse -->
+                </nav>

@@ -1,0 +1,15 @@
+<table class="table table-bordered table-hover table-striped" 
+       data-sort-name="nome" data-sort-order="asc" data-toggle="table" 
+       data-url="ajax/json.php?fn=listaUsuarios" data-cache="false" 
+       data-show-columns="true" data-height="299" data-side-pagination="server" 
+       data-pagination="true" data-toolbar="#custom-toolbar"
+       data-page-list="[5, 10, 20, 50, 100, 200]" data-search="true" 
+       data-show-Refresh="true" data-show-Toggle="true">
+    <thead>
+        <tr>
+            <th data-field="login">Usuario</th>
+            <th data-field="nome">Nome</th>
+            <th data-field="operate" data-formatter="operateFormatter" data-events="operateEvents" class="text-center">OPÇÕES</th>
+        </tr>
+    </thead>
+</table>
